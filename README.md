@@ -1,1 +1,1 @@
-site  get ninja
+site  get ninja ola mundo
