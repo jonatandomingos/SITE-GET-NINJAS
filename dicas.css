@@ -1,0 +1,100 @@
+
+
+.titulo-dicas{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.titulo-dicas h2{
+    font-size: 30px;
+    
+}
+.titulo-dicas p{
+    font-size: 20px;
+    color: #575757;
+}
+.container-dicas{
+    display: flex;
+    gap: 40px;
+
+
+}
+.itens-dicas{
+    display: flex;
+    
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 12%);
+    
+}
+.conteudo-dicas{
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 40px;
+    
+}
+.container-dicas h2{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.container-dicas p{
+    font-size: 18px;
+    color: #575757;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.conteudo-dicas a{
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #009ded;
+    font-weight: 500;
+   
+}
+.container-dicas a:hover{
+    text-decoration: underline;
+}
+/* container sobre imagens  */
+
+.info-getninja{
+    padding: 100px;
+    display: flex;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    row-gap: 40px;
+}
+.sobre h2{
+    font-size: 30px;
+}
+.sobre p{
+    font-size: 15px;
+    color: #575757;
+    font-weight: 300;
+}
+.sobre button{
+    height: 60px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 20px;
+    color: white;
+
+    background-color: #009ded;
+    cursor: pointer;
+    transition: all .2s ease-out;
+   
+}
+.sobre button:hover{
+    border: 2px solid #07608d;
+}
+.sobre button a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}

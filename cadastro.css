@@ -1,0 +1,109 @@
+
+.cadastro{
+    padding: 100px;
+    
+    
+}
+.formulario{
+    background-color: #ffee75;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    
+}
+.titulo-cadastro{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.titulo-cadastro h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.titulo-cadastro p{
+    font-size: 20px;
+    color: #575757;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+/* .nomes{
+    display: flex;
+    gap: 410px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.nomes span{
+    font-size: 20px;
+    color: #575757;
+    font-weight: 300;
+}
+.inputs, input{
+    display: flex;
+    column-gap: 40px;
+    
+    padding-left: 20px;
+    height: 50px;
+    width: 1000px;
+    margin-bottom: 40px;
+    border: none;
+}
+.inputs input::placeholder{
+    font-size: 18px;
+}
+.inputs button{
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #0e73e8;
+
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+.inputs button:hover{
+    border: 2px solid #0e73e8;
+} */
+.email-celular{
+    display: flex;
+    padding-left: 20px;
+    column-gap: 40px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.inputs input{
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+
+    
+}
+.inputs input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.inputs span{
+    font-size: 20px;
+    color: #425063;
+}
+.inputs button{
+    height: 60px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #0e73e8;
+
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+.inputs button:hover{
+    background-color: #084e9e;
+}
+.inputs button:hover{
+    border: 2px solid #0e73e8;
+}

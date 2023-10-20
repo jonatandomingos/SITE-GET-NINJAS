@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,800&display=swap');
+
+
+
+@import url(./header.css);
+@import url(./conectando.css);
+@import url(./princ-serviços.css);
+@import url(./aplicativo.css);
+@import url(./contrato.css);
+@import url(./getninja.css);
+@import url(./pedidos.css);
+@import url(./preço.css);
+@import url(./cadastro.css);
+@import url(./funcional.css);
+@import url(./dicas.css);
+@import url(./midia.css);
+@import url(./principal.css);
+@import url(./footer.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: white;
+}

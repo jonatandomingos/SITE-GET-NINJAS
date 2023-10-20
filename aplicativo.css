@@ -1,0 +1,64 @@
+
+
+.aplicativo{
+    display: flex;
+    
+    /* padding: 200px; */
+    padding-left: 80px;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    background-color: #ffee75;
+    column-gap: 100px;
+}
+.titulo-aplicativo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.titulo-aplicativo h4{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #000;
+}
+.titulo-aplicativo p{
+    font-size: 20px;
+    color: #575757;
+    padding-bottom: 40px;
+}
+
+.itens-botao{
+    display: flex;
+    column-gap: 40px;
+    
+}
+.googleplay{
+    padding: 8px 12px;
+    border: 1px solid #425063;
+    border-radius: 6px;
+
+    cursor: pointer;
+    transition: all .2s ease-out;
+    color: gray;
+}
+.googleplay :hover{
+    color: rgb(58, 58, 151);
+}
+.appstore{
+    padding: 8px 12px;
+    border: 1px solid #425063;
+    border-radius: 6px;
+    transition: all .2s ease-out;
+    color: gray;
+
+
+    cursor: pointer;
+}
+.appstore :hover{
+    color: rgb(58, 58, 151);
+}
+.img-celular{
+    display: flex;
+    justify-content: center;
+    margin-top: -240px;
+}

@@ -1,0 +1,154 @@
+
+.institucional {
+    display: flex;
+    
+}
+.footer{
+    padding: 100px;
+   
+}
+.itensfooter{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 50px;
+    
+}
+/*  itens serviços*/
+.itensserviços{
+    display: flex;
+    column-gap: 60px;
+}
+.itens1-serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 30px;
+    
+}
+.itens1-serviços h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+.itens1-serviços a, .itens2-serviços a, .institucional a{
+    text-decoration: none;
+    color: #009ded;
+}
+.itens1-serviços a:hover, .itens2-serviços a:hover, .institucional a:hover{
+    text-decoration: underline;
+}
+.itens2-serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 30px;
+    padding-top: 60px;
+}
+/*  institucional*/
+.institucional{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.institucional h4, .link h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* links */
+.link{
+    display: flex;
+    flex-direction: column;
+    
+}
+.link h4, .downloads h5{
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.link h5{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.icones-link{
+    display: flex;
+    column-gap: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.icones-link i{
+    padding: 15px;
+    background-color: #009ded;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 100px;
+
+
+    cursor: pointer;
+}
+/*  */
+.downloads{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+/* footer infor */
+.info-footer{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    column-gap: 120px;
+}
+.links-footer{
+    display: flex;
+    column-gap: 40px;
+}
+.links-footer a{
+    text-decoration: none;
+    color: #009ded;
+
+}
+.links-footer a:hover{
+    text-decoration: underline;
+}
+
+/* paises */
+.paises{
+    display: flex;
+    flex-direction: column;
+
+}
+.paises h5{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.paises button{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.paises button:hover{
+    border: 2px solid #009ded;
+}
+
+/*  endereço */
+.endereço{
+    display: flex;
+    background-color: #dbdbdb;
+    padding: 10px;
+    padding-left: 80px;
+ 
+  
+}
+.endereço p{
+    font-size: 16px;
+    color: #575757;
+    font-weight: 300;
+
+}

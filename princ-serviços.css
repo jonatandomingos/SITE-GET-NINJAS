@@ -1,0 +1,58 @@
+
+
+.principais-serviços{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    
+}
+.titulo-serviços{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.titulo-serviços h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.titulo-serviços h3{
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+.img-serviços{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.serviços1{
+    height: 250px;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    row-gap: 10px;
+}
+
+.serviços1 img{
+    height: 150px;
+    width: 100%;
+    border-left: 12px;
+    border-right: 12px;
+}
+.serviços1 span{
+    font-size: 18px;
+    color: #575757;
+}
+.serviços1 a{
+    text-decoration: none;
+    font-weight: 600;
+}

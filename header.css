@@ -1,0 +1,64 @@
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-top: 1px solid black;
+    
+    
+}
+.imagens-logo {
+    display: flex;
+    
+}
+.imagens-logo img{
+    height: 30px;
+    
+}
+
+.links-header {
+    display: flex;
+    align-items: center;
+    column-gap: 40px; 
+}
+.links-header a{
+    font-size: 22px;
+    color: #0e73e8;
+    text-decoration: none;
+}
+.links-header button{
+    padding: 20px 30px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0e73e8;
+    border-radius: 10px;
+    border: 2px solid #0e73e8;
+}
+
+/* ITENS LOJA */
+
+.itens-loja{
+    display: flex;
+    
+    margin-left: 80px;
+    margin-right: 80px;
+    border-top: 1px solid #575757;
+    border-bottom: 1px solid #575757;
+    padding: 15px;
+    background-color: white;
+    /* column-gap: 80px; */
+    justify-content: space-around;
+}
+.itens{
+    display: flex;
+    flex-direction: column;
+}
+.itens span{
+    color: #575757;
+    font-size: 14px;
+    font-weight: 400;
+}

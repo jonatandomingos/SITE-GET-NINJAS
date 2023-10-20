@@ -1,0 +1,38 @@
+
+.funcional{
+    padding: 10px;
+}
+.titulo-funcional{
+    display: flex;
+    justify-content: center;
+    
+}
+.titulo-funcional h2{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+/* container */
+.container-funcional{
+    display: flex;
+    justify-content: space-around;
+}
+/* itens funcional */
+.itens-funcional{
+    display: flex;
+    flex-direction: column;
+}
+.itens-funcional img{
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    margin-left: 80px;
+    
+}
+.container-funcional p{
+    font-size: 16px;
+    color: #575757;
+    text-align: center;
+    
+
+}

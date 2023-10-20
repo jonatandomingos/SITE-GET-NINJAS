@@ -1,0 +1,79 @@
+
+
+.pedidos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    
+}
+.titulo-pedidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.titulo-pedidos h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.titulo-pedidos p{
+    font-size: 20px;
+    color: #575757;
+    padding-bottom: 40px;
+}
+/*  SAUDE */
+.saude{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    column-gap: 40px;
+
+}
+/* container */
+.psicologico{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 12%);
+    padding-left: 40px;
+    padding-top: 20px;
+    
+    
+    
+}
+
+.container-saude{
+    display: flex;
+    flex-direction: column;
+}
+.container-saude a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+.container-saude span{
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.container-saude p{
+    font-size: 18px;
+    color: #575757;
+    font-weight: 300;
+    padding-bottom: 40px;
+
+}
+.container-saude > h4{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.container-saude img{
+    width: 20px;
+    height: 20px;
+}
+.container-saude p{
+    color: #575757;
+}

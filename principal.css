@@ -1,0 +1,62 @@
+
+.principal{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    
+    
+}
+.principal1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+.principal1 h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.itens1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.itens1 h4,  .itens2 h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+.itens1 span{
+    font-size: 16px;
+    color: #009ded;
+}
+.itens1 span a{
+    color: #009ded;
+}
+.itens1 a{
+    text-decoration: none;
+    color: #575757;
+}
+.itens1 a:hover{
+    color: #009ded;
+}
+
+.principal2{
+    display: flex;
+    flex-direction: row;
+    
+    column-gap: 50px;
+}
+.itens2{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.itens2 a{
+    text-decoration: none;
+    color: #575757;
+}
+.itens2 a:hover{
+    color: #009ded;
+}
